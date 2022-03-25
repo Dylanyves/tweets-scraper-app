@@ -18,6 +18,9 @@ class App:
         st.title('Tweets Scraper & Analyser')
         st.markdown('***')
 
+        st.session_state['tweets'] = object
+        st.session_state['size'] - int
+
     def sidebar():
         years = [int(2024-i) for i in range(1, 17)]
         with st.sidebar:
