@@ -1,6 +1,5 @@
 import re
 from datetime import datetime
-from git import Object
 import pandas as pd
 import json
 

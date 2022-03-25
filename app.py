@@ -1,12 +1,9 @@
-from numpy import record
-from pyparsing import col
 import streamlit as st
 import pandas as pd
 from machine import Machine
 from data import Data
 from train import Train
 import plotly.express as px
-from wordcloud import WordCloud, STOPWORDS
 
 st.set_page_config(
     page_title='Tweets Scraper',
